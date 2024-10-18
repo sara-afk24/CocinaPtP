@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header> 
+        <div class = "content"> 
+            
+         <div class = "menu container">
+             <a href = "index.html" class = logo> Cocina </a>
+             <input type = "checkbox" id = "menu"/>
+             <label for = "menu">
+             
+             
+             
+             </label>
+             
+             <nav class = "navbar">
+             
+             <ul>
+            
+                 <li> <a href = "index.html"> Inicio </a></li>
+                 <li> <a href = "SobreNosotros.html"> Sobre Nosotros </a></li>
+                 <li> <a href = "Recetas.html"> Recetas </a></li>
+                 <li> <a href = "Feedback.html"> Feedback </a></li>
+                 
+            </ul>
+                 
+             </nav>
+            <h1> Feedback </h1>
+       
+           </div>   
+          
+        </div>
+        
+        
+        </header>
+        
+         <h1>Deja tu Feedback aqui: </h1>
+        <form action="submit_form.php" method="post">
+            <label for="email">Email o Username:</label> <br>
+            <input type="email" id="email" name="email" placeholder="Cuenta: " required>
+            <br>
+            <br>
+            <label for="subject">Tema:</label> <br>
+            <input type="text" id="subject" name="subject" placeholder="" required>
+            <br>
+            <br>
+            <label for="message">Aportacion:</label> <br>
+            <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
